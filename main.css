@@ -1,0 +1,53 @@
+
+
+body {background-color:powderblue;
+		background-image:'Yosemite.jpg';
+	}
+	
+
+/* CSS styles */ 
+h1 {
+font-family: Impact, sans-serif;
+color: #CE5937;
+text-align: center;
+}
+
+img {
+width: 50px; 
+height: 50px;
+border-radius: 10px;
+object-fit: cover;
+margin: 1px 1px 1px 1px;
+/*align-items: stretch; */
+justify-content: space-around;
+}
+
+/*
+figcaption {
+text-align: center;
+}
+*/
+
+/*
+.image-row {
+  display: flex;
+  justify-content: space-between; 
+}
+*/
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
